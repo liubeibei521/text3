@@ -1,0 +1,39 @@
+body{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	overflow: hidden;
+	font-size: .12rem; 
+}
+.header{
+	height: .5rem;
+	line-height: .5rem
+}
+.header-list{
+	display: -webkit-flex;
+	li{
+		-webkit-flex: 1;
+		text-align: center;
+		position: relative;
+		b{
+			position: absolute;
+			bottom: 0;
+			right: .23rem;
+			width: .6rem;
+			height: .02rem;
+			background: #617ef6;
+			display: none;
+		}
+	}
+}
+.active{
+	span{
+		color: #617ef6!important;
+	}
+	b{
+		display: block!important;
+	}
+}
